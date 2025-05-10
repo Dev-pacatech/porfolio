@@ -82,4 +82,4 @@ npm run lint
 
 ## License
 
-© {new Date().getFullYear()} PACATECH. All rights reserved.
+© 2025 PACATECH. All rights reserved.
