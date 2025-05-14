@@ -2,7 +2,16 @@ import React, { useEffect, useRef } from "react";
 
 const ReviewOnScroll = ({ children }) => {
   const ref = useRef(null);
+
   useEffect(() => {
+    // Immediately add visible class on mobile devices to avoid content hidden issue
+    if (window.innerWidth <= 768) {
+      if (ref.current) {
+        ref.current.classList.add("visible");
+      }
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
