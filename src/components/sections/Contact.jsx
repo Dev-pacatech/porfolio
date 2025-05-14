@@ -14,9 +14,9 @@ const Contact = () => {
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
+        VITE_TEMPLATE_ID,
         e.target,
-        import.meta.env.VITE_PUBLIC_KEY
+        VITE_PUBLIC_KEY
       )
       .then((result) => {
         alert("Message sent successfully!");
@@ -37,7 +37,7 @@ const Contact = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <ReviewOnScroll>
-        <div className="px-4 w-150 max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto px-4 w-full">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-slate-400 bg-clip-text text-transparent text-center">
             Get in Touch
           </h2>
@@ -85,7 +85,7 @@ const Contact = () => {
               />
             </div>
             <button
-              type="subit"
+              type="submit"
               className="w-full bg-purple-500 text-white py-3 px-6 rounded font-medium transition overflow-hidden hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,220,0.4)] hover:bg-purple-500/80 active:bg-purple-500/90"
             >
               Send Message
