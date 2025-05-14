@@ -8,14 +8,16 @@ const Contact = () => {
     email: "",
     message: "",
   });
-  const SERVICE_ID = "service_flacyvb";
-  const TEMPLATE_ID = "template_aotgkqr";
-  const PUBLIC_KEY = "SpNcZTxG4e5htk0Gk";
 
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
+      .sendForm(
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
+        e.target,
+        import.meta.env.VITE_PUBLIC_KEY
+      )
       .then((result) => {
         alert("Message sent successfully!");
         setFormData({
@@ -35,7 +37,7 @@ const Contact = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <ReviewOnScroll>
-        <div className="px-4 w-150">
+        <div className="px-4 w-150 max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-slate-400 bg-clip-text text-transparent text-center">
             Get in Touch
           </h2>

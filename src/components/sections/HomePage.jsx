@@ -8,7 +8,7 @@ const HomePage = () => {
       className="min-h-screen flex items-center justify-center relative"
     >
       <ReviewOnScroll>
-        <div className="text-center z-10 px-4">
+        <div className="text-center z-10 px-4 max-w-5xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-500 to-slate-400 bg-clip-text text-transparent">
             Hi, I'm PACATECH
           </h1>
