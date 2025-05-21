@@ -66,16 +66,14 @@ const Projects = () => {
               </p>
 
               <div className="flex flex-wrap gap-2">
-                {["React", "TailwindCSS", "Rest API", "DataBase"].map(
-                  (skill, key) => (
-                    <span
-                      key={key}
-                      className="bg-purple-500/10 m-1  text-white px-3 py-1 rounded-full text-sm hover:bg-purple-500/20 transition-all hover:shadow-[0_2px_8px_rgba(59,130,220,0.1)] "
-                    >
-                      {skill}
-                    </span>
-                  )
-                )}
+                {["React", "TailwindCSS"].map((skill, key) => (
+                  <span
+                    key={key}
+                    className="bg-purple-500/10 m-1  text-white px-3 py-1 rounded-full text-sm hover:bg-purple-500/20 transition-all hover:shadow-[0_2px_8px_rgba(59,130,220,0.1)] "
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
               <div>
                 <a
@@ -140,16 +138,14 @@ const Projects = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 ">
-                {["React", "TailwindCSS", "Rest API", "DataBase"].map(
-                  (skill, key) => (
-                    <span
-                      key={key}
-                      className="bg-purple-500/10 m-1  text-white px-3 py-1 rounded-full text-sm hover:bg-purple-500/20 transition-all hover:shadow-[0_2px_8px_rgba(59,130,220,0.1)] "
-                    >
-                      {skill}
-                    </span>
-                  )
-                )}
+                {["React", "TailwindCSS"].map((skill, key) => (
+                  <span
+                    key={key}
+                    className="bg-purple-500/10 m-1  text-white px-3 py-1 rounded-full text-sm hover:bg-purple-500/20 transition-all hover:shadow-[0_2px_8px_rgba(59,130,220,0.1)] "
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
               <div>
                 <a
