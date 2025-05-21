@@ -77,7 +77,7 @@ const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://filmpire-eta.vercel.app/"
+                  href="https://todo-app-sooty-ten-11.vercel.app/"
                   className="text-purple-400 hover:text-purple-300 transition-colors duration-300 mt-4 inline-block"
                   target="_blank"
                 >
