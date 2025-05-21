@@ -37,11 +37,11 @@ const Contact = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <ReviewOnScroll>
-        <div className="max-w-5xl mx-auto px-4 w-full">
+        <div className="max-w-5xl mx-auto w-full">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-slate-400 bg-clip-text text-transparent text-center">
             Get in Touch
           </h2>
-          <form onSubmit={handleSubmit} className="space-y-6 " action="">
+          <form onSubmit={handleSubmit} className="space-y-6 mx-auto" action="">
             <div className="relative">
               <input
                 type="text"
