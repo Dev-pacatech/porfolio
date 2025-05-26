@@ -55,7 +55,7 @@ const Projects = () => {
               <div className="mb-4">
                 <img
                   src="https://i.postimg.cc/fRXf5g6W/Screenshot-2025-05-21-200049.png"
-                  alt="Filmpire Project"
+                  alt="Todo-app"
                   className="rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
                 />
               </div>
@@ -86,22 +86,25 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rgba(59,130,220,0.5)] transition-all">
-              <h3 className="text-xl font-bold mb-2">Filmpire</h3>
+              <h3 className="text-xl font-bold mb-2">Quotes Generator</h3>
               <div className="mb-4">
                 <img
-                  src="https://i.postimg.cc/7LmFwwqg/Screenshot-2025-05-09-204607.png"
-                  alt="Filmpire Project"
+                  src="https://i.postimg.cc/1zYNQT1L/Screenshot-2025-05-26-173927.png"
+                  alt="quotes-generator"
                   className="rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
                 />
               </div>
               <p className="text-gray-400 mb-3">
-                Filmpire is a sleek web app for discovering movies, showcasing
-                my skills in React, API integration, and responsive design
-                through an engaging and user-friendly interface
+                A simple and responsive Random Quotes Generator built with React
+                and Tailwind CSS, enhanced with smooth animations using Framer
+                Motion. The app fetches and displays random quotes from the
+                Quotable API, allowing users to get new inspirational quotes
+                with the click of a button. It features loading and error states
+                to ensure a smooth and user-friendly experience
               </p>
 
               <div className="flex flex-wrap gap-2">
-                {["React", "TailwindCSS", "Rest API", "DataBase"].map(
+                {["React", "TailwindCSS", "API", "Framer-motion"].map(
                   (skill, key) => (
                     <span
                       key={key}
@@ -114,7 +117,7 @@ const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://filmpire-eta.vercel.app/"
+                  href="https://random-quotes-app-delta.vercel.app/"
                   className="text-purple-400 hover:text-purple-300 transition-colors duration-300 mt-4 inline-block"
                   target="_blank"
                 >
