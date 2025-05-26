@@ -42,7 +42,7 @@ const Projects = () => {
               </div>
               <div className="flex justify-between items-center my-4">
                 <a
-                  href="https://todo-app-sooty-ten-11.vercel.app/"
+                  href="https://filmpire-eta.vercel.app/"
                   className="text-purple-400 hover:text-purple-300 transition-colors duration-300 mt-4 inline-block"
                   target="_blank"
                 >
