@@ -95,12 +95,9 @@ const Projects = () => {
                 />
               </div>
               <p className="text-gray-400 mb-3">
-                A simple and responsive Random Quotes Generator built with React
-                and Tailwind CSS, enhanced with smooth animations using Framer
-                Motion. The app fetches and displays random quotes from the
-                Quotable API, allowing users to get new inspirational quotes
-                with the click of a button. It features loading and error states
-                to ensure a smooth and user-friendly experience
+                A simple and responsive Random Quotes Generator.The app fetches
+                and displays random quotes from the Quotable API, allowing users
+                to get new inspirational quotes with the click of a button.
               </p>
 
               <div className="flex flex-wrap gap-2">
