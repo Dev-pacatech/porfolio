@@ -123,10 +123,10 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rgba(59,130,220,0.5)] transition-all">
-              <h3 className="text-xl font-bold mb-2">Todo-App</h3>
+              <h3 className="text-xl font-bold mb-2">Note-App</h3>
               <div className="mb-4">
                 <img
-                  src="https://i.postimg.cc/fRXf5g6W/Screenshot-2025-05-21-200049.png"
+                  src="https://i.postimg.cc/qRfx6bYY/Screenshot-2025-05-28-120103.png"
                   alt="Filmpire Project"
                   className="rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
                 />
@@ -138,18 +138,20 @@ const Projects = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 ">
-                {["React", "TailwindCSS"].map((skill, key) => (
-                  <span
-                    key={key}
-                    className="bg-purple-500/10 m-1  text-white px-3 py-1 rounded-full text-sm hover:bg-purple-500/20 transition-all hover:shadow-[0_2px_8px_rgba(59,130,220,0.1)] "
-                  >
-                    {skill}
-                  </span>
-                ))}
+                {["React", "TailwindCSS", "uuid", "localStorage"].map(
+                  (skill, key) => (
+                    <span
+                      key={key}
+                      className="bg-purple-500/10 m-1  text-white px-3 py-1 rounded-full text-sm hover:bg-purple-500/20 transition-all hover:shadow-[0_2px_8px_rgba(59,130,220,0.1)] "
+                    >
+                      {skill}
+                    </span>
+                  )
+                )}
               </div>
               <div>
                 <a
-                  href="https://todo-app-sooty-ten-11.vercel.app/"
+                  href="https://note-app-liard-seven.vercel.app/"
                   className="text-purple-400 hover:text-purple-300 transition-colors duration-300 mt-4 inline-block"
                   target="_blank"
                 >
